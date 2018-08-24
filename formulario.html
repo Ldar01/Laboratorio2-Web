@@ -12,11 +12,11 @@
             <fieldset>
                 <legend>Personal Data</legend>
                 DUI: <input type="text" placeholder="048134128" pattern="[0-9]{9}" required>
-                First Name: <input type="text" placeholder="First Name" required>
-                Last Name: <input type="text" placeholder="Last Name"required>
-                Gender <input type="radio"> F
-                <input type="radio"> M <br><br>
-                Contact Number: <input type="tel">
+                First Name: <input type="text" pattern="[A-Za-z]+" placeholder="First Name" required>
+                Last Name: <input type="text" pattern="[A-Za-z]+" placeholder="Last Name"required>
+                Gender <input type="radio" name="radio"> F
+                <input type="radio" name="radio"> M <br><br>
+                Contact Number: <input type="tel" pattern="[0-9]{8}" >
                 Birthday: <input type="date" required>
                 Civil Status <select>
                     <option>Single</option>
